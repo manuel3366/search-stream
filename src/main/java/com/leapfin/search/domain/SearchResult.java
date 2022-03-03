@@ -51,9 +51,9 @@ public class SearchResult {
 	@Override
 	public String toString() {
 		if (this.status.equals(SearchStatus.SUCCESS)) {
-			return "[" + elapseTime + "] [" + byteCount + "] [" + status + "]";
+			return String.format("[%d][%d][%s]", elapseTime, byteCount, status.name());
 		}
-		return "[] [] [" + this.status.name() + "]";
+		return String.format("[] [] [%s]", status.name());
 	}
 	
 	
