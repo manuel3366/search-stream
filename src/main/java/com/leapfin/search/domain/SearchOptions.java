@@ -1,5 +1,12 @@
 package com.leapfin.search.domain;
 
+/**
+* SearchOptions contains the options to be used during the search.
+*
+* @author  Edwin Saucedo
+* @version 1.0
+* @since   2022-03-02 
+*/
 public class SearchOptions {
 	
 	private Integer stringLength;

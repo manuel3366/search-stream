@@ -1,7 +1,6 @@
 package com.leapfin.search.util;
 
 import java.util.List;
-import java.util.concurrent.TimeoutException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,6 +8,13 @@ import org.apache.logging.log4j.Logger;
 import com.leapfin.search.domain.SearchResult;
 import com.leapfin.search.domain.SearchResult.SearchStatus;
 
+/**
+* Prints the results of the search that are required by the application.
+*
+* @author  Edwin Saucedo
+* @version 1.0
+* @since   2022-03-02 
+*/
 public class SearchResultPrinter {
 	
 	private static Logger logger = LogManager.getLogger(SearchResultPrinter.class);

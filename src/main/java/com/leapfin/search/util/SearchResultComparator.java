@@ -4,6 +4,13 @@ import java.util.Comparator;
 
 import com.leapfin.search.domain.SearchResult;
 
+/**
+* Permits to order the search results based on the elapsed time.
+*
+* @author  Edwin Saucedo
+* @version 1.0
+* @since   2022-03-02 
+*/
 public class SearchResultComparator implements Comparator<SearchResult> {
 
 	@Override
